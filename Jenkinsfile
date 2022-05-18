@@ -1,7 +1,7 @@
 pipeline {
     agent none
     stages {
-      agent {
+        agent {
             docker {
                 image 'node:10.24.0'
                 args '-p 3000:3000'
